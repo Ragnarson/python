@@ -28,7 +28,7 @@ def initialize(*args)
 end
 
 attribute :package_name, :kind_of => String, :name_attribute => true
-attribute :version, :default => nil
+attribute :version, [String, nil], :default => nil
 attribute :timeout, :default => 900
 attribute :virtualenv, :kind_of => String
 attribute :user, :regex => Chef::Config[:user_valid_regex]

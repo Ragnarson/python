@@ -2,6 +2,10 @@ python Cookbook CHANGELOG
 =========================
 This file is used to list changes made in each version of the python cookbook.
 
+v1.4.8
+------
+- Allow python_pip version to be nil without depreaction warning.
+
 v1.4.6
 ------
 
